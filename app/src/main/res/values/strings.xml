@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FortniteEpicSkins</string>
+    <string name="login">Login</string>
+    <string name="createAccount">Create Account</string>
+<!--    <string name="welcome">Welcome, %1$s</string>-->
+    <string name="admin">Admin</string>
+    <string name="logout">Logout</string>
+    <string name="adminDisplay">Are you an admin?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="loginLoginHint">Login</string>
+    <string name="loginUsernameHint">Enter Username</string>
+    <string name="loginPasswordHint">Enter Password</string>
+    <string name="loginAdminKeyHint">Enter Admin Key</string>
+
+</resources>
