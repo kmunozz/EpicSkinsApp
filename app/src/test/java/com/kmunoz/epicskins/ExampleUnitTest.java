@@ -1,4 +1,4 @@
-package com.example.fortniteepicskins;
+package com.kmunoz.epicskins;
 
 import org.junit.Test;
 
