@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginPage.LoginActivity">
+    tools:context=".ACTIVITIES.LoginActivity">
 
     <TextView
         android:id="@+id/loginDisplay"
@@ -24,7 +24,7 @@
         android:id="@+id/loginUsernameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:ems="12"
         android:gravity="center"
         android:hint="@string/loginUsernameHint"
@@ -33,7 +33,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginDisplay"
         android:autofillHints="" />
-
 
     <EditText
         android:id="@+id/loginPasswordEditText"
@@ -49,57 +48,25 @@
         app:layout_constraintTop_toBottomOf="@+id/loginUsernameEditText"
         android:autofillHints="" />
 
-    <TextView
-        android:id="@+id/loginAdminDisplay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:fadeScrollbars="true"
-        android:gravity="center"
-        android:scrollbars="vertical"
-        android:text="@string/adminDisplay"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/loginPasswordEditText" />
-
-    <EditText
-        android:id="@+id/loginAdminCodeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:ems="12"
-        android:gravity="center"
-        android:hint="@string/loginAdminKeyHint"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginAdminDisplay"
-        android:autofillHints="" />
-
     <Button
-        android:visibility="invisible"
-        tools:visibility="visible"
         android:id="@+id/loginLoginButton"
         android:layout_width="130dp"
         android:layout_height="65dp"
-        android:layout_marginTop="25dp"
         android:gravity="center"
         android:text="@string/login"
         android:textSize="18sp"
+        android:layout_marginTop="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginAdminCodeText" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPasswordEditText" />
 
     <Button
-        android:visibility="invisible"
-        tools:visibility="visible"
-        android:id="@+id/loginCreateAccountButton"
+        android:id="@+id/loginRegisterButton"
         android:layout_width="130dp"
         android:layout_height="65dp"
         android:layout_marginTop="25dp"
         android:gravity="center"
-        android:text="@string/createAccount"
+        android:text="@string/register"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

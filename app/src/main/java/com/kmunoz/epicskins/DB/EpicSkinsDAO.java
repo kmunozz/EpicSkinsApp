@@ -1,4 +1,4 @@
-package com.example.fortniteepicskins.DB;
+package com.kmunoz.epicskins.DB;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -6,13 +6,12 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.fortniteepicskins.LandingPage.Skins;
-import com.example.fortniteepicskins.LoginPage.User;
+import com.kmunoz.epicskins.User;
 
 import java.util.List;
 
 @Dao
-public interface FortniteEpicSkinsDAO {
+public interface EpicSkinsDAO {
 
     //User
     @Insert
@@ -37,11 +36,11 @@ public interface FortniteEpicSkinsDAO {
     void deleteUserById(int userId);
 
     //Skins
-    @Insert
-    void insert(Skins...skins);
-
-    @Update
-    void update(Skins...skins);
+//    @Insert
+//    void insert(Skins...skins);
+//
+//    @Update
+//    void update(Skins...skins);
 
     // TODO: Finish making queries
 
